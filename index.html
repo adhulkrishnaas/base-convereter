@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Converter</h1>
+      <div class="input-container">
+        <input type="text" id="input-el" />
+      </div>
+      <div class="select-container">
+        <div class="from-container">
+          <h2>From</h2>
+          <select name="" id="from-el">
+            <option value="decimal">Decimal</option>
+            <option value="hexadecimal">Hexadecimal</option>
+            <option value="octal">Octal</option>
+            <option value="binary">Binary</option>
+          </select>
+        </div>
+        <div class="to-container">
+          <h2>To</h2>
+          <select name="" id="to-el">
+            <option value="decimal">Decimal</option>
+            <option value="hexadecimal">Hexadecimal</option>
+            <option value="octal">Octal</option>
+            <option value="binary">Binary</option>
+          </select>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button type="submit" id="convert-btn" class="btn-grad">Convert</button>
+        <button type="submit" id="swap-btn" class="btn-grad">Swap</button>
+      </div>
+      <div class="output-container">
+        <h2 id="result-el"></h2>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
